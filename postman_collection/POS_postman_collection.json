@@ -34,7 +34,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\":\"C001\",\n    \"name\":\"waruna\",\n    \"address\":\"Galle\",\n    \"salary\":35000\n}",
+							"raw": "{\n    \"id\":\"C001\",\n    \"name\":\"Padeepa\",\n    \"address\":\"Galle\",\n    \"salary\":35000\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -62,7 +62,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"id\":\"C001\",\n    \"name\":\"waruna\",\n    \"address\":\"weligama\",\n    \"salary\":45000\n}",
+							"raw": "{\n    \"id\":\"C001\",\n    \"name\":\"Chamika\",\n    \"address\":\"Ambalangoda\",\n    \"salary\":40000\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -159,7 +159,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"code\":\"I001\",\n    \"description\":\"Item 01\",\n    \"qtyOnHand\":500,\n    \"price\":590\n}",
+							"raw": "{\n    \"code\":\"I001\",\n    \"description\":\"Item 01\",\n    \"qtyOnHand\":300,\n    \"price\":550\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -187,7 +187,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"code\":\"I001\",\n    \"description\":\"Item 01\",\n    \"qtyOnHand\":500,\n    \"price\":590\n}",
+							"raw": "{\n    \"code\":\"I001\",\n    \"description\":\"Item 01\",\n    \"qtyOnHand\":300,\n    \"price\":550\n}",
 							"options": {
 								"raw": {
 									"language": "json"
