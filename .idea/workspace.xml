@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d658130-9aee-4d08-919d-462f1956ac56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/postman_collection/POS_postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/postman_collection/POS_postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Customer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662556162740</updated>
-      <workItem from="1662556164388" duration="1423000" />
+      <workItem from="1662556164388" duration="2501000" />
     </task>
     <servers />
   </component>

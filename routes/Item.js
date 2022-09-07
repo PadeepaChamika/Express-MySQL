@@ -14,17 +14,17 @@ connection.connect(function (err) {
             if (result.warningCount === 0){
                 console.log("Item table created");
             }
-        })
+        });
     }
-})
+});
 
 router.get('/', (req, res) => {
     var getAllItemsQuery = "SELECT * FROM Items";
     connection.query(getAllItemsQuery, (err, rows) => {
         if (err) console.log(err)
         res.send(rows);
-    })
-})
+    });
+});
 
 router.post('/', (req, res) => {
     const code = req.body.code;
@@ -40,8 +40,8 @@ router.post('/', (req, res) => {
         } else {
             res.send({'message': 'Item Saved'})
         }
-    })
-})
+    });
+});
 
 
 
@@ -61,8 +61,8 @@ router.put('/', (req, res) => {
         } else {
             res.send({'message': 'Item Not Updated'})
         }
-    })
-})
+    });
+});
 
 
 router.get('/:code',(req,res) => {
@@ -73,8 +73,8 @@ router.get('/:code',(req,res) => {
     connection.query(query,[code],(err,row) => {
         if (err) console.log(err)
         res.send(row)
-    })
-})
+    });
+});
 
 router.delete('/:code',(req,res) => {
     const code = req.params.code;
@@ -89,8 +89,8 @@ router.delete('/:code',(req,res) => {
         } else {
             res.send({ "Message": "Item is not found.Please try again...!" })
         }
-    })
-})
+    });
+});
 
 
 module.exports = router
