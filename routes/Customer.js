@@ -18,15 +18,15 @@ connection.connect(function (err) {
             }
         })
     }
-})
+});
 
 router.get('/', (req, res) => {
     var getAllCustomersQuery = "SELECT * FROM Customers";
     connection.query(getAllCustomersQuery, (err, rows) => {
         if (err) console.log(err)
         res.send(rows);
-    })
-})
+    });
+});
 
 router.post('/', (req, res) => {
     const id = req.body.id;
@@ -42,8 +42,8 @@ router.post('/', (req, res) => {
         } else {
             res.send({'message': 'Customer Saved'})
         }
-    })
-})
+    });
+});
 
 router.put('/', (req, res) => {
     const id = req.body.id;
@@ -61,8 +61,8 @@ router.put('/', (req, res) => {
         } else {
             res.send({'message': 'Customer Not Updated'})
         }
-    })
-})
+    });
+});
 
 router.get('/:id',(req,res) => {
     const id = req.params.id;
@@ -72,8 +72,8 @@ router.get('/:id',(req,res) => {
     connection.query(query,[id],(err,row) => {
         if (err) console.log(err)
         res.send(row)
-    })
-})
+    });
+});
 
 router.delete('/:id',(req,res) => {
     const id = req.params.id;
@@ -88,7 +88,7 @@ router.delete('/:id',(req,res) => {
         } else {
             res.send({ "message": "customer is not found.Please try again...!" })
         }
-    })
-})
+    });
+});
 
 module.exports = router
